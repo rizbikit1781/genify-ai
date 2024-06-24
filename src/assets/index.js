@@ -1,6 +1,7 @@
 import brainwave from "./brainwave.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
+import genify from "./brainwave-symbol.png"
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -81,6 +82,7 @@ export {
   check2,
   loading1,
   brainwaveSymbol,
+  genify,
   brainwaveWhiteSymbol,
   play,
   gradient,
