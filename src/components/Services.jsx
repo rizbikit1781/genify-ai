@@ -2,8 +2,9 @@ import React from 'react'
 import Section from './Section'
 import Heading from './Heading'
 import { check, service1, service2, service3 } from '../assets'
-import { brainwaveServices } from '../constants'
+import { brainwaveServices, brainwaveServicesIcons } from '../constants'
 import Generating from './Generating'
+import { PhotoChatMessage, Gradient, VideoBar, VideoChatMessage } from './design/Services'
 
 const Services = () => {
   return (
@@ -60,9 +61,33 @@ const Services = () => {
                   <h4 className='h4 mb-4'>Photo editing</h4>
                   <p className='body-2 mb-[3rem] text-n-3'>Automatically enhance your photos using our AI app's photo editing feature. Try it now!</p>
                   </div>
-                </div>
-          </div>
 
+                  <PhotoChatMessage />
+
+                </div>
+                
+                <div className='p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]'>
+                  <div className='py-12 px-4 xl:px-8'>
+                    <h4 className='h4 mb-4'>Video generation</h4>
+                    <p className='body-2 mb-[2rem] text-n-3'>The world's most powerful AI photo and video art generation engine. What will you create?</p>
+
+                    <ul className='flex items-center justify-between'>
+                      {brainwaveServicesIcons.map((item, index) => (
+                        <li>
+                          <div>
+                            <img 
+                              src={item}
+                            />
+                          </div>
+                        </li>
+                      ))}
+
+                    </ul>
+                  
+                  </div>
+                </div>  
+
+          </div>
         </div>
       </div>
     </Section>
