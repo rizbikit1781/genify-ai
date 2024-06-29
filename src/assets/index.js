@@ -2,7 +2,7 @@ import brainwave from "./brainwave.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import genify from "./brainwave-symbol.png"
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import brainwaveWhiteSymbol from "./brainwave-symbol.png";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
