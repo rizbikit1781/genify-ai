@@ -17,6 +17,10 @@
   scroll-behavior: smooth;
 }
 
+.white-image {
+  filter: brightness(0) invert(1);
+}
+
 @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;
